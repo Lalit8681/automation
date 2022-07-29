@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\admin\eclipse-workspace\lalit\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+948190915.index
+1095122210.index
+1225954487.index
+2566487818.index
+2108815789.index
+2270444396.index

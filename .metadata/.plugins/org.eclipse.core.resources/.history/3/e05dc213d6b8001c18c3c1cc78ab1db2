@@ -1,0 +1,30 @@
+package basic;
+
+public class Conditional {
+	public static void main(String[] args) {
+		int a = 10;
+		
+		int b=5;
+		int c=b++;
+		int d=b++;
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		
+		
+		
+		
+		if (a>=5)
+		{
+			System.out.println("correct value");
+		}
+		else
+		{
+			System.out.println("incorrect value");
+		}
+		 
+		
+		
+	}
+
+}

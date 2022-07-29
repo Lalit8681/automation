@@ -1,0 +1,12 @@
+package utility;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class Reports {
+	public void generateReports() {
+		ExtentSparkReporter htmlreporter=new ExtentSparkReporter("myreports.html");
+		ExtentReports extent = new ExtentReports();
+	}
+
+}

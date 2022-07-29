@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Javascript.java&apos; to &apos;auto/src/auto&apos;&#x0D;&#x0A;- Original project: &apos;auto&apos;&#x0D;&#x0A;- Destination element: &apos;auto/src/auto&apos;&#x0D;&#x0A;- Original element: &apos;auto.Javascript.java&apos;" description="Copy compilation unit" destination="/src&lt;auto" element1="/src&lt;auto{Javascript.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1655225874812" units="1" version="1.0"/>
+</session>

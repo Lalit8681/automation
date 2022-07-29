@@ -1,0 +1,13 @@
+package auto;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class forprCT2 {
+public static void main(String[] args) {
+	WebDriver driver= forpract.openb("https://www.facebook.com/");
+	WebElement dp=driver.findElement(By.xpath("//select[@id='dropdown-class-example']"));
+	
+}
+}

@@ -1,0 +1,17 @@
+package utility;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class Excel {
+	public static String getData(String Sheet, int row, int cell) throws EncryptedDocumentException, IOException {
+		FileInputStream file= new FileInputStream("C:\\Users\\admin\\eclipse-workspace\\Zerodha\\src\\test\\resources\\Book1.xlsx");
+		String Fetchdata=WorkbookFactory.create(file).getSheet(Sheet).getRow(row).getCell(cell).getStringCellValue();
+		return Fetchdata;
+	}
+
+}

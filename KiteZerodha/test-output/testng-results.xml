@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-16T00:07:04 IST" name="Default suite" finished-at="2022-07-16T00:07:23 IST" duration-ms="18452">
+    <groups>
+    </groups>
+    <test started-at="2022-07-16T00:07:04 IST" name="Default test" finished-at="2022-07-16T00:07:23 IST" duration-ms="18452">
+      <class name="Test.KiteTest">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:Test.KiteTest@4b8ee4de]" started-at="2022-07-16T00:07:04 IST" name="createReport" finished-at="2022-07-16T00:07:05 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Test.KiteTest@4b8ee4de]" started-at="2022-07-16T00:07:05 IST" name="OpenBrowser" finished-at="2022-07-16T00:07:14 IST" duration-ms="8759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="KiteLogin()[pri:0, instance:Test.KiteTest@4b8ee4de]" started-at="2022-07-16T00:07:14 IST" name="KiteLogin" finished-at="2022-07-16T00:07:21 IST" duration-ms="7266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KiteLogin -->
+        <test-method is-config="true" signature="capctureResult(org.testng.ITestResult)[pri:0, instance:Test.KiteTest@4b8ee4de]" started-at="2022-07-16T00:07:21 IST" name="capctureResult" finished-at="2022-07-16T00:07:21 IST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=KiteLogin status=SUCCESS method=KiteTest.KiteLogin()[pri:0, instance:Test.KiteTest@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capctureResult -->
+        <test-method is-config="true" signature="TakeSS()[pri:0, instance:Test.KiteTest@4b8ee4de]" started-at="2022-07-16T00:07:21 IST" name="TakeSS" finished-at="2022-07-16T00:07:23 IST" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeSS -->
+      </class> <!-- Test.KiteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
